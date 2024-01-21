@@ -1,6 +1,6 @@
 import React from 'react';
 // 1: useState
-// ensure you: import React, {useState} from 'react';
+// ensure you: import React, {useState} from 'react' inside that component;
 // 1.1
 // import ErrorExample from './tutorial/1-useState/final/1-error-example';
 // 1.2
@@ -43,7 +43,10 @@ import React from 'react';
 //6. USE REDUCER
 
 // Use Reducer Explanation.
+// first simple
 // import UseReducerFunctionExample from './tutorial/6-useReducer/final/useReducerFunctionExample';
+// second complex
+import Index from './tutorial/6-useReducer/final/index';
 
 // 6.1
 // import Index from './tutorial/6-useReducer/final';
@@ -70,7 +73,7 @@ import React from 'react';
 // import ReactRouterSetup from './tutorial/11-react-router/final';
 
 // 12. useMemo
-import Index from './tutorial/12-memo-useMemo-useCallback/final';
+// import Index from './tutorial/12-memo-useMemo-useCallback/final';
 
 
 
@@ -105,6 +108,7 @@ const App = () => {
 
       {/* Use reducer explanation */}
       {/* <UseReducerFunctionExample/> */}
+      <Index/>
 
       {/* <Index/> */}
       
@@ -124,7 +128,7 @@ const App = () => {
       {/* <ReactRouterSetup/> */}
 
       {/* USE MEMO */}
-      <Index/>
+      {/* <Index/> */}
 
     </div>
   )

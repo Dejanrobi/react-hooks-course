@@ -11,7 +11,7 @@ const MultipleInputs = () => {
   const handleChange = (e) => {
     const name = e.target.name;
     const value = e.target.value;
-    // because the key is defined and is a variable, we have to add it inside brackets 
+    // because the key is defined and is a variable, we have to add it inside square brackets 
     //in order to obtain its value
     setPerson({ ...person, [name]: value });
   };

@@ -10,6 +10,7 @@ const UseEffectBasics = () => {
   useEffect(() => {
     console.log('call useEffect');
     if (value > 0) {
+      // this is the head title of the page. Look at the top after clicking: New Message(1)
       document.title = `New Messages(${value})`;
     }
   });

@@ -20,6 +20,7 @@ const UseStateCounter = () => {
   return (
     <>
       <section style={{ margin: '4rem 0' }}>
+        {/* Regular Counter */}
         <h2>regular counter</h2>
         <h1>{value}</h1>
         <button className='btn' onClick={() => setValue(value - 1)}>

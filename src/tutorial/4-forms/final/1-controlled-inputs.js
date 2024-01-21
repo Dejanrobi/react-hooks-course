@@ -17,7 +17,7 @@ const ControlledInputs = () => {
       // console.log(person);
       
       //adding a person to the people array,
-      //we destructure the existing array, add a new person and then create another array and set the 
+      //we spread the existing array, add a new person and then create another array and set the 
       //new people to the new array
       setPeople((people) => {
         return [...people, person];

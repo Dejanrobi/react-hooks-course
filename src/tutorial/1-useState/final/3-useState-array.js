@@ -1,5 +1,7 @@
 import React, { useState} from 'react';
 import { data } from '../../../data';
+
+
 const UseStateArray = () => {
   const [people, setPeople] = useState(data);
 
@@ -7,6 +9,7 @@ const UseStateArray = () => {
     let newPeople = people.filter((person) => person.id !== id);
     setPeople(newPeople);
   };
+  
   return (
     <>
       {people.map((person) => {

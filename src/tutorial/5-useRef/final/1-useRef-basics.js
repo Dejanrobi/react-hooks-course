@@ -12,6 +12,8 @@ const UseRefBasics = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(refContainer.current.value);
+    // making the input empty
+    refContainer.current.value = ''
   };
 
   // Runs whenever the DOM loads or re-renders.
@@ -21,6 +23,7 @@ const UseRefBasics = () => {
   useEffect(() => {
     console.log(refContainer.current);
     refContainer.current.focus();
+    // the current element is the input element and that's why we take its value.
   });
 
   return (
